@@ -19,6 +19,12 @@
 		D530E86420A27C83003A65D6 /* TermiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D530E86320A27C83003A65D6 /* TermiTests.swift */; };
 		D530E86F20A27C83003A65D6 /* TermiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D530E86E20A27C83003A65D6 /* TermiUITests.swift */; };
 		D530E87D20A27F7F003A65D6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D530E87C20A27F7F003A65D6 /* GoogleService-Info.plist */; };
+		D530E87F20A28353003A65D6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D530E87E20A28353003A65D6 /* SystemConfiguration.framework */; };
+		D530E88120A2835B003A65D6 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D530E88020A2835B003A65D6 /* AudioToolbox.framework */; };
+		D530E88320A28383003A65D6 /* libstdc++.6.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D530E88220A28383003A65D6 /* libstdc++.6.tbd */; };
+		D530E88520A28394003A65D6 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D530E88420A28394003A65D6 /* libsqlite3.tbd */; };
+		D530E88820A283AF003A65D6 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D530E88620A283A9003A65D6 /* Bolts.framework */; };
+		D530E88920A283AF003A65D6 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D530E88720A283AF003A65D6 /* Parse.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +68,12 @@
 		D530E86E20A27C83003A65D6 /* TermiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermiUITests.swift; sourceTree = "<group>"; };
 		D530E87020A27C83003A65D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D530E87C20A27F7F003A65D6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D530E87E20A28353003A65D6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D530E88020A2835B003A65D6 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D530E88220A28383003A65D6 /* libstdc++.6.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.tbd"; path = "usr/lib/libstdc++.6.tbd"; sourceTree = SDKROOT; };
+		D530E88420A28394003A65D6 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		D530E88620A283A9003A65D6 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		D530E88720A283AF003A65D6 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		F15E54FB201F6300C88AE7FF /* Pods-Termi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Termi.release.xcconfig"; path = "Pods/Target Support Files/Pods-Termi/Pods-Termi.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,6 +82,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D530E88520A28394003A65D6 /* libsqlite3.tbd in Frameworks */,
+				D530E88320A28383003A65D6 /* libstdc++.6.tbd in Frameworks */,
+				D530E88120A2835B003A65D6 /* AudioToolbox.framework in Frameworks */,
+				D530E88920A283AF003A65D6 /* Parse.framework in Frameworks */,
+				D530E88820A283AF003A65D6 /* Bolts.framework in Frameworks */,
+				D530E87F20A28353003A65D6 /* SystemConfiguration.framework in Frameworks */,
 				0B838088A0FF2EDE0EF2BCBF /* Pods_Termi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -109,6 +127,10 @@
 		499E159036C4F40F87FFBA0D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D530E88420A28394003A65D6 /* libsqlite3.tbd */,
+				D530E88220A28383003A65D6 /* libstdc++.6.tbd */,
+				D530E88020A2835B003A65D6 /* AudioToolbox.framework */,
+				D530E87E20A28353003A65D6 /* SystemConfiguration.framework */,
 				2B4EFE5F96BDCF704B314F9A /* Pods_Termi.framework */,
 				0298C22986802FC6D12BBFD6 /* Pods_TermiTests.framework */,
 				360B39A5AB0F7890E9C00DE1 /* Pods_TermiUITests.framework */,
@@ -149,6 +171,8 @@
 				D530E85A20A27C83003A65D6 /* Info.plist */,
 				D530E85220A27C7D003A65D6 /* Termi.xcdatamodeld */,
 				D530E87C20A27F7F003A65D6 /* GoogleService-Info.plist */,
+				D530E88620A283A9003A65D6 /* Bolts.framework */,
+				D530E88720A283AF003A65D6 /* Parse.framework */,
 			);
 			path = Termi;
 			sourceTree = "<group>";
@@ -564,8 +588,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5H9LF74GEN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Termi",
+				);
 				INFOPLIST_FILE = Termi/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Difeng-Chen.Termi";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -580,8 +611,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5H9LF74GEN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Termi",
+				);
 				INFOPLIST_FILE = Termi/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Difeng-Chen.Termi";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -598,7 +636,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5H9LF74GEN;
 				INFOPLIST_FILE = TermiTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Difeng-Chen.TermiTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -616,7 +658,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5H9LF74GEN;
 				INFOPLIST_FILE = TermiTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Difeng-Chen.TermiTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -633,7 +679,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5H9LF74GEN;
 				INFOPLIST_FILE = TermiUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Difeng-Chen.TermiUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -650,7 +700,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5H9LF74GEN;
 				INFOPLIST_FILE = TermiUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Difeng-Chen.TermiUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
