@@ -25,6 +25,9 @@
 		D530E88520A28394003A65D6 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D530E88420A28394003A65D6 /* libsqlite3.tbd */; };
 		D530E88820A283AF003A65D6 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D530E88620A283A9003A65D6 /* Bolts.framework */; };
 		D530E88920A283AF003A65D6 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D530E88720A283AF003A65D6 /* Parse.framework */; };
+		D5FAF2DC20A288DD009AFB1A /* academicCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FAF2DA20A288DD009AFB1A /* academicCollectionViewController.swift */; };
+		D5FAF2DD20A288DD009AFB1A /* academicCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FAF2DB20A288DD009AFB1A /* academicCollectionViewCell.swift */; };
+		D5FAF2DF20A288E9009AFB1A /* createTermViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FAF2DE20A288E9009AFB1A /* createTermViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +77,9 @@
 		D530E88420A28394003A65D6 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		D530E88620A283A9003A65D6 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		D530E88720A283AF003A65D6 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		D5FAF2DA20A288DD009AFB1A /* academicCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = academicCollectionViewController.swift; sourceTree = "<group>"; };
+		D5FAF2DB20A288DD009AFB1A /* academicCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = academicCollectionViewCell.swift; sourceTree = "<group>"; };
+		D5FAF2DE20A288E9009AFB1A /* createTermViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = createTermViewController.swift; sourceTree = "<group>"; };
 		F15E54FB201F6300C88AE7FF /* Pods-Termi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Termi.release.xcconfig"; path = "Pods/Target Support Files/Pods-Termi/Pods-Termi.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -165,7 +171,10 @@
 			children = (
 				D530E84B20A27C7D003A65D6 /* AppDelegate.swift */,
 				D530E84D20A27C7D003A65D6 /* ViewController.swift */,
+				D5FAF2DB20A288DD009AFB1A /* academicCollectionViewCell.swift */,
+				D5FAF2DA20A288DD009AFB1A /* academicCollectionViewController.swift */,
 				D530E84F20A27C7D003A65D6 /* Main.storyboard */,
+				D5FAF2DE20A288E9009AFB1A /* createTermViewController.swift */,
 				D530E85520A27C83003A65D6 /* Assets.xcassets */,
 				D530E85720A27C83003A65D6 /* LaunchScreen.storyboard */,
 				D530E85A20A27C83003A65D6 /* Info.plist */,
@@ -411,8 +420,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D530E84E20A27C7D003A65D6 /* ViewController.swift in Sources */,
+				D5FAF2DD20A288DD009AFB1A /* academicCollectionViewCell.swift in Sources */,
+				D5FAF2DF20A288E9009AFB1A /* createTermViewController.swift in Sources */,
 				D530E84C20A27C7D003A65D6 /* AppDelegate.swift in Sources */,
 				D530E85420A27C7D003A65D6 /* Termi.xcdatamodeld in Sources */,
+				D5FAF2DC20A288DD009AFB1A /* academicCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
