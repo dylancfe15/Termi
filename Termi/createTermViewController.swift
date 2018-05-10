@@ -11,7 +11,7 @@ import CoreData
 class createTermViewController: UIViewController {
     var primaryAcademic = "Computer Science"
     
-    let terms:Terms = NSEntityDescription.insertNewObject(forEntityName: "Terms", into: DatabaseController.getContext()) as! Terms
+    
     @IBOutlet weak var primaryAcademicButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()

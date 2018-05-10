@@ -11,7 +11,6 @@
 		2D9E6DF70494A64C394EE7B6 /* Pods_TermiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0298C22986802FC6D12BBFD6 /* Pods_TermiTests.framework */; };
 		5A4F333B6DA92C65ED8A40A9 /* Pods_TermiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 360B39A5AB0F7890E9C00DE1 /* Pods_TermiUITests.framework */; };
 		D530E84C20A27C7D003A65D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D530E84B20A27C7D003A65D6 /* AppDelegate.swift */; };
-		D530E84E20A27C7D003A65D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D530E84D20A27C7D003A65D6 /* ViewController.swift */; };
 		D530E85120A27C7D003A65D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D530E84F20A27C7D003A65D6 /* Main.storyboard */; };
 		D530E85420A27C7D003A65D6 /* Termi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D530E85220A27C7D003A65D6 /* Termi.xcdatamodeld */; };
 		D530E85620A27C83003A65D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D530E85520A27C83003A65D6 /* Assets.xcassets */; };
@@ -28,6 +27,12 @@
 		D5FAF2DC20A288DD009AFB1A /* academicCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FAF2DA20A288DD009AFB1A /* academicCollectionViewController.swift */; };
 		D5FAF2DD20A288DD009AFB1A /* academicCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FAF2DB20A288DD009AFB1A /* academicCollectionViewCell.swift */; };
 		D5FAF2DF20A288E9009AFB1A /* createTermViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FAF2DE20A288E9009AFB1A /* createTermViewController.swift */; };
+		D5FAF2E320A28A2F009AFB1A /* signUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FAF2E020A28A2F009AFB1A /* signUpViewController.swift */; };
+		D5FAF2E420A28A2F009AFB1A /* signInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FAF2E120A28A2F009AFB1A /* signInViewController.swift */; };
+		D5FAF2E520A28A2F009AFB1A /* settingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FAF2E220A28A2F009AFB1A /* settingViewController.swift */; };
+		D5FAF2E720A28A41009AFB1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FAF2E620A28A41009AFB1A /* ViewController.swift */; };
+		D5FAF2E920A28A9C009AFB1A /* DatabaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FAF2E820A28A9C009AFB1A /* DatabaseController.swift */; };
+		D5FAF2EF20A28B61009AFB1A /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FAF2EE20A28B61009AFB1A /* AlertController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +63,6 @@
 		CA0761E6FA66B4AD3438F4CA /* Pods-Termi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Termi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Termi/Pods-Termi.debug.xcconfig"; sourceTree = "<group>"; };
 		D530E84820A27C7D003A65D6 /* Termi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Termi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D530E84B20A27C7D003A65D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D530E84D20A27C7D003A65D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D530E85020A27C7D003A65D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D530E85320A27C7D003A65D6 /* Termi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Termi.xcdatamodel; sourceTree = "<group>"; };
 		D530E85520A27C83003A65D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -80,6 +84,12 @@
 		D5FAF2DA20A288DD009AFB1A /* academicCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = academicCollectionViewController.swift; sourceTree = "<group>"; };
 		D5FAF2DB20A288DD009AFB1A /* academicCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = academicCollectionViewCell.swift; sourceTree = "<group>"; };
 		D5FAF2DE20A288E9009AFB1A /* createTermViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = createTermViewController.swift; sourceTree = "<group>"; };
+		D5FAF2E020A28A2F009AFB1A /* signUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signUpViewController.swift; sourceTree = "<group>"; };
+		D5FAF2E120A28A2F009AFB1A /* signInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signInViewController.swift; sourceTree = "<group>"; };
+		D5FAF2E220A28A2F009AFB1A /* settingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingViewController.swift; sourceTree = "<group>"; };
+		D5FAF2E620A28A41009AFB1A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../Termy/Termy/ViewController.swift; sourceTree = "<group>"; };
+		D5FAF2E820A28A9C009AFB1A /* DatabaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseController.swift; sourceTree = "<group>"; };
+		D5FAF2EE20A28B61009AFB1A /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
 		F15E54FB201F6300C88AE7FF /* Pods-Termi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Termi.release.xcconfig"; path = "Pods/Target Support Files/Pods-Termi/Pods-Termi.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -170,11 +180,14 @@
 			isa = PBXGroup;
 			children = (
 				D530E84B20A27C7D003A65D6 /* AppDelegate.swift */,
-				D530E84D20A27C7D003A65D6 /* ViewController.swift */,
+				D5FAF2F120A28BD0009AFB1A /* Tools */,
 				D5FAF2DB20A288DD009AFB1A /* academicCollectionViewCell.swift */,
 				D5FAF2DA20A288DD009AFB1A /* academicCollectionViewController.swift */,
 				D530E84F20A27C7D003A65D6 /* Main.storyboard */,
 				D5FAF2DE20A288E9009AFB1A /* createTermViewController.swift */,
+				D5FAF2E220A28A2F009AFB1A /* settingViewController.swift */,
+				D5FAF2F020A28B93009AFB1A /* Sign Up */,
+				D5FAF2E620A28A41009AFB1A /* ViewController.swift */,
 				D530E85520A27C83003A65D6 /* Assets.xcassets */,
 				D530E85720A27C83003A65D6 /* LaunchScreen.storyboard */,
 				D530E85A20A27C83003A65D6 /* Info.plist */,
@@ -202,6 +215,24 @@
 				D530E87020A27C83003A65D6 /* Info.plist */,
 			);
 			path = TermiUITests;
+			sourceTree = "<group>";
+		};
+		D5FAF2F020A28B93009AFB1A /* Sign Up */ = {
+			isa = PBXGroup;
+			children = (
+				D5FAF2E120A28A2F009AFB1A /* signInViewController.swift */,
+				D5FAF2E020A28A2F009AFB1A /* signUpViewController.swift */,
+			);
+			path = "Sign Up";
+			sourceTree = "<group>";
+		};
+		D5FAF2F120A28BD0009AFB1A /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				D5FAF2EE20A28B61009AFB1A /* AlertController.swift */,
+				D5FAF2E820A28A9C009AFB1A /* DatabaseController.swift */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -419,12 +450,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D530E84E20A27C7D003A65D6 /* ViewController.swift in Sources */,
+				D5FAF2E720A28A41009AFB1A /* ViewController.swift in Sources */,
+				D5FAF2E320A28A2F009AFB1A /* signUpViewController.swift in Sources */,
 				D5FAF2DD20A288DD009AFB1A /* academicCollectionViewCell.swift in Sources */,
+				D5FAF2E920A28A9C009AFB1A /* DatabaseController.swift in Sources */,
 				D5FAF2DF20A288E9009AFB1A /* createTermViewController.swift in Sources */,
+				D5FAF2E420A28A2F009AFB1A /* signInViewController.swift in Sources */,
 				D530E84C20A27C7D003A65D6 /* AppDelegate.swift in Sources */,
 				D530E85420A27C7D003A65D6 /* Termi.xcdatamodeld in Sources */,
+				D5FAF2EF20A28B61009AFB1A /* AlertController.swift in Sources */,
 				D5FAF2DC20A288DD009AFB1A /* academicCollectionViewController.swift in Sources */,
+				D5FAF2E520A28A2F009AFB1A /* settingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
